@@ -366,4 +366,4 @@ def pred_name(df, lname_col, fname_col, ngrams, model_name, feature_len):
     return rdf
 
 def test():
-    print("Testing if nameclass_module works")
+    print("Installation is successful and ready to be used!")

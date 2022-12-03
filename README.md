@@ -2,9 +2,30 @@
 
 ## <p align="center"> Documentation </p>
 
-## Scripts that can be imported and used, along with necessary parameters and appropriate value types:
+### How to install
 
-#### 1. nameclass_module
+For installing this module, follow steps below:
+1. Make sure the latest version of `pip` is installed on your machine.
+2. Open a terminal, command line, or powershell window.
+3. Copy the following command into your terminal window and click enter:
+
+`pip install git+https://github.com/MightyThor10/nameclass_identifier.git`
+
+### How to test successful install of nameclass_identifier module
+For testing a successful installing, follow steps below:
+1. Open a terminal, command line, or powershell window.
+2. Open a new Python interactive session by typing `python` or `python3` depending on your python installation configuration and hit enter. 
+3. Inside the Python interactive session, import the module by typing `import nameclass_identifier` and hit enter. Wait until the module is loaded.
+4. Type `nameclass_identifier.test()` and hit enter. If installation of the module is successful a `Installation is successful and ready to be used!` message will be shown.
+
+
+### How to use functions from this module
+
+Simply import the `nameclass_identifier` module in your python script and access its functions as `nameclass_identifier.function()`. The complete list of functions and their respective parameters are below.
+
+<br></br>
+## Scripts that can be imported and used, along with necessary parameters and appropriate value types:
+#### 1. From nameclass_module
 Functions available:
 
 ```
@@ -92,7 +113,7 @@ pred_name(df, lname_col, fname_col, ngrams, model_name, feature_len)
 ```
 <br></br>
 
-#### 2. directmatch.py
+#### 2. From directmatch.py
 
 Functions available:
 
@@ -113,7 +134,6 @@ Functions available:
         match: cleaned up original df dataframe merged with the dataframe which contains the first names,
         last names, and the proportion of Arab and MENA populations.
 ```
-
 
 ## Guide to packages and dependencies used:
 Dependencies and Packages used and/or to be installed before usage: 
